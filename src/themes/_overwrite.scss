@@ -1,0 +1,121 @@
+@charset "utf-8";
+@import './_variable.scss';
+
+
+//列表样式
+table{
+     width: 100% !important;
+}
+.el-table th{
+   background: #fff;
+       height: 50px;
+}
+.el-table__footer-wrapper thead div, .el-table__header-wrapper thead div{
+    background: #fff;
+}
+.el-table tr:nth-child(2n-1){
+    background: #F3F5F7;
+}
+.el-table td, .el-table th.is-leaf{
+    border: 0;
+}
+
+.el-table--striped .el-table__body tr.el-table__row--striped td{
+     background: #fff;
+}
+.el-table__fixed-header-wrapper thead div{
+    background: #fff;
+}
+
+
+
+//按钮样式重写
+.el-button--text,.el-button--text:active,.el-button--text:focus, .el-button--text:hover{
+    color:  #95A0AA;
+}
+.login-container .el-button--primary:focus, .el-button--primary:hover{
+    background: #4db3ff !important;
+    border-color: #4db3ff !important;
+}
+// .el-button{
+//     color:#47C6E6;
+//     border-color: #47C6E6 !important;
+// }
+
+.el-col-24{
+    padding: 20px;
+}
+
+//弹出框
+.el-dialog__headerbtn,.el-message-box__headerbtn{
+    font-size: 14px;
+    height: inherit;
+}
+.el-message-box__wrapper{
+    z-index: 10001 !important;
+}
+// 分页
+.el-pager li{
+    background: #FFFFFF;
+    border: 1px solid #95A0AA !important;
+    border-radius: 4px;
+    margin: 0 5px;
+    }
+.el-pagination .btn-prev,.el-pagination .btn-next{
+    border: 1px solid #95A0AA !important;
+    border-radius: 4px;
+}
+.el-pager li.active{
+    // border-color: $bhc;
+    background-color: $bhc;
+     border:0 !important;
+}
+
+// 按钮重置
+.el-button--primary{
+    background: $primary;
+    border-color: $primary;
+}
+
+.login-container .el-form-item__content{
+    position: relative;
+}
+.login-container .el-form-item__content i{
+    position: absolute;
+    left: 0;
+    top: 0;
+    left: 16px;
+    top: 8px;
+    z-index: 1;
+    color: #E2E3E5;
+}
+.login-container .el-input__inner{
+    height: 50px;
+    border-radius: 30px;
+    padding: 3px 40px;
+    font-size: 16px;
+}
+.login-container .el-button{
+     height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+.login-container .el-button--primary{
+    background-color: #FF6300;
+    border-color: #FF6300;
+}
+.login-container .el-button--primary.is-active, .el-button--primary:active{
+    background-color: #FF6300;
+    border-color: #FF6300;
+}
+.login-container .el-button--primary:focus, .el-button--primary:hover{
+     background-color: #FF6300;
+    border-color: #FF6300;
+}
+.el-col-20{
+    width: 76%
+}
+
+.el-button{
+    height: 36px;
+}

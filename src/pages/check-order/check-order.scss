@@ -1,0 +1,18 @@
+
+.order-info-wrap{
+    margin-top:20px;
+    box-sizing: border-box;
+    width:800px;
+    padding:20px;
+    border-radius: 6px;
+    border:1px solid #A3ACB4;
+    .info-row{
+        margin-bottom:16px;
+    }
+    .info-block{
+        width: 50%;
+        b{
+            margin-right: 10px;
+        }
+    }
+}
